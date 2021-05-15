@@ -1,0 +1,45 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} View {% endblock %}
+
+<!-- Specific CSS goes HERE -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+<div class="pcoded-content">
+    <div class="pcoded-inner-content">
+        <!-- [ breadcrumb ] end -->
+        <div class="main-body">
+            <div class="page-wrapper">
+                <!-- [ Main Content ] start -->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="row">
+                            <div class="col"><h5 class="mb-3">Food Consumed</h5></div>
+                            <div class="col-sm-2"><a href= "{{ url_for('base_blueprint.add_food') }}" class="btn btn-outline-secondary">Add Food</a></div>
+                        </div>
+                        <hr>
+                            {% for food in foods.items %}
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5 class="mb-0">
+                                        {{ food.title }}
+                                    </h5>
+                                </div>
+                                <div class="card-block">
+                                    {{ food.content}}
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}

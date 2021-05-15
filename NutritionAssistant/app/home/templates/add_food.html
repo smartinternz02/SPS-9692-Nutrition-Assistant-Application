@@ -1,0 +1,80 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} Check Food {% endblock %}
+
+<!-- Specific CSS goes HERE -->
+
+
+{% block content %}
+<div class="pcoded-content">
+    <div class="pcoded-inner-content">
+        <div class="main-body">
+            <div class="page-wrapper">
+                <!-- [ Main Content ] start -->
+                <div class="row">
+                    <div class="col-sm-1"></div>
+                    <div class="col" style="text-align:center"><h1>What are you eating?</h1></div>
+                    <div class="col-sm-3" style="padding-top:15px;padding-bottom-15px"><a href= "{{ url_for('base_blueprint.food_view') }}" class="btn btn-outline-secondary">See what you have eaten</a></div>
+                </div>
+                <div class="col-sm-12">
+                    <h6>Snap a photo of your food & upload for a nutritional breakdown.</h6>
+                </div>
+                <div class="row">
+                    <div class="col"></div>
+                    <div class="col-sm-6 align-self-start">
+                        <form action="#">
+                            <input type="file" id="filename" placeholder="Filename" size="100" class="col-sm-12"/>
+                            <div class="row mt-3"></div>
+                            <button class="btn btn-primary" onclick="predict_click($('#filename').val(), 'file'); return false;">Get my Nutritional Breakdown!</button>
+                        </form>
+                    </div>
+                    <div class="col"></div>
+                </div>
+                <div class="row mt-3"></div>
+
+                <!-- wkdl-->
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5>Upload Photo</h5>
+                                </div>
+                                <div class="class-block">
+                                </div>
+                                <div id="predictions" class="class-block">
+                                    <div class="food-photo" style="background-size=contain">
+                                        <div style="height:300px"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5>Get a Nutritional Breakdown</h5>
+                                </div>
+                                <div id="concepts" style="margin:auto"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- [ Main Content ] end -->
+
+{% endblock content %}
+
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="https://sdk.clarifai.com/js/clarifai-latest.js"></script>
+    <script type="text/javascript" src="https://s3.amazonaws.com/static.mlh.io/blog-code/2018-02-clarifai-nutrition-app/wolfram.js"></script>
+    <script type="text/javascript" src="/static/assets/js/pages/predict.js"></script>
+
+{% endblock javascripts %}
+

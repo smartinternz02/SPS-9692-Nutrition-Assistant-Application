@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="074851b2-d550-4450-8fd3-6b534fdb1358" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1sL38oZfdnvYzX70OKQ3yozVIXt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/NutritionAssistant" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sushmitha\Documents\final\NutritionAssistant" />
+      <recent name="C:\Users\Sushmitha\Documents\final\NutritionAssistant\app\base\static\assets\js" />
+      <recent name="C:\Users\Sushmitha\Documents\final\NutritionAssistant\app\home\templates" />
+      <recent name="C:\Users\Sushmitha\Documents\final\NutritionAssistant\app\base\templates" />
+      <recent name="C:\Users\Sushmitha\Documents\final\NutritionAssistant\app\base\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sushmitha\Documents\final\NutritionAssistant\app\base\static\assets\js\pages" />
+      <recent name="C:\Users\Sushmitha\Documents\final\NutritionAssistant\app\base" />
+      <recent name="C:\Users\Sushmitha\Documents\final\NutritionAssistant\app" />
+      <recent name="C:\Users\Sushmitha\Documents\final\NutritionAssistant" />
+      <recent name="C:\Users\Sushmitha\Documents\final" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.NutritionAssistant/Dockerfile">
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="final" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NutritionAssistant" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NutritionAssistant/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="NutritionAssistant/Dockerfile" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="" />
+          <option name="buildCliOptions" value="" />
+          <option name="command" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="commandLineOptions" value="" />
+          <option name="sourceFilePath" value="NutritionAssistant/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="074851b2-d550-4450-8fd3-6b534fdb1358" name="Default Changelist" comment="" />
+      <created>1620637887044</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620637887044</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="447" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620640958151">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="447" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1620640958151" />
+    <state x="851" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1620640918920">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="851" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1620640918920" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1620736364340">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1620736364340" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1620690185368">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1620690185368" />
+    <state x="647" y="310" key="Github.ShareDialog" timestamp="1621098221565">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="647" y="310" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1621098221565" />
+    <state x="532" y="117" key="Github.UntrackedFilesDialog" timestamp="1620759424317">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="532" y="117" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1620759424317" />
+    <state width="746" height="210" key="GridCell.Tab.0.bottom" timestamp="1620741837106">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620741837106" />
+    <state width="746" height="210" key="GridCell.Tab.0.center" timestamp="1620741837106">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1620741837106" />
+    <state width="746" height="210" key="GridCell.Tab.0.left" timestamp="1620741837087">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1620741837087" />
+    <state width="746" height="210" key="GridCell.Tab.0.right" timestamp="1620741837106">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1620741837106" />
+    <state x="334" y="202" key="IDE.errors.dialog" timestamp="1620746978404">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="334" y="202" key="IDE.errors.dialog/0.0.1536.824@0.0.1536.824" timestamp="1620746978404" />
+    <state x="861" y="93" width="582" height="638" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1620690347573">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="861" y="93" width="582" height="638" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1620690347573" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1620745867498">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1620745867498" />
+  </component>
+</project>
